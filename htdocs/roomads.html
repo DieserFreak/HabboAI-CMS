@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hobba Room ADS</title>
+
+		<!-- Google web fonts -->
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+
+		<!-- The main CSS file -->
+		<link href="/lib/standard/dbox/upload/css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<form id="upload" method="post" action="roomads.php" enctype="multipart/form-data"><center><img src="/logo1.png"></center>
+			<div id="drop">
+				ROOM ADS
+
+				<a>AUSW&Auml;HLEN</a>
+				<input type="file" name="upl" multiple />
+			</div>
+
+			<ul>
+				<!-- The file uploads will be shown here -->
+			</ul>
+
+		</form>
+
+        
+		<!-- JavaScript Includes -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.knob.js"></script>
+
+		<!-- jQuery File Upload Dependencies -->
+		<script src="/lib/standard/dbox/upload/js/jquery.ui.widget.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.iframe-transport.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.fileupload.js"></script>
+		
+		<!-- Our main JS file -->
+		<script src="/lib/standard/dbox/upload/js/script.js"></script>
+
+
+		<!-- Only used for the demos. Please ignore and remove. --> 
+        <script src="http://cdn.tutorialzine.com/misc/enhance/v1.js" async></script>
+
+		<script>alert("Achtung - bitte lesen!\r\rAkzeptiert wird nur das .PNG Format!\r\rJede Datei muss ihren eigenen Namen haben - Beispiel:\r\rHazed lädt ein Bild hoch - Dateiname müsste sein: HAZED_ROOMADS1 (Kann auch anders heissen, wichtig: Euer Name muss drinne stehen!\r\rIm RaumADS wird dann folgendes eingegeben:\r/roomads/dateiname.png\r")</script>
+		
+	</body>
+</html>

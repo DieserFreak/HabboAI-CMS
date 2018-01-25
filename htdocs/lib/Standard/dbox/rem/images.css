@@ -1,0 +1,467 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,600italic,600,400italic,300italic,300);
+@import url(960_24_col.css);
+
+
+body {
+    background: url(/lib/standard/img/neu/incon/bg_rooms.png);
+	 background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-color: #ecebeb;
+	font: 14px 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	overflow: none;
+    color: #808080;
+}
+
+#loginForm {
+	display: block;
+}
+
+#registerForm {
+	#display: none;
+}
+
+#forgotForm {
+	display: none;
+	position: absolute;
+	top: 40%;
+}
+
+#contenfBox  {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 1px;
+    -webkit-boder-radius: 1px;
+    margin-top: 70px;
+    border-radius: 4px;
+                -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+   box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+    position: relative;
+    margin-bottom: 10px;
+    width: 91.5%;
+}
+
+#contenfBox  #header {
+	height: 70px;
+}
+
+#contenfBox  .habbologo {
+	background: url(/lib/standard/index/sprite.84d1e1dc.png);
+    height: 73px;
+    width: 200px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+#contenfBox  #onlineBar {
+    background: #f4f4f4;
+    height: 39px;
+    float: left;
+    font: 500 14px 'Open Sans', sans-serif;
+    padding: 0px 20px;
+    line-height: 39px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    margin-left: 125px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .0);
+    margin-top: 5px;
+    color: #969696;
+}
+
+#contenfBox  #onlineBar #arrow {
+    border-style: solid;
+    border-color: transparent #f4f4f4 transparent transparent;
+    border-width: 10px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+#contenfBox  #onlineBar a {
+	color: rgba(0, 0, 0, .6);
+	text-decoration: none;
+}
+
+#contenfBox  .loginPosition {
+	width: 536px;
+	position: absolute;
+	height: 100px;
+	right: 0;
+	top: 15px;
+}
+
+#contenfBox  .loginPosition .usernamePosition {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+#contenfBox  .loginPosition .passwordPosition {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+#contenfBox  input[type=text], #contenfBox  input[type=password] {
+    background: #f4f4f4;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    padding: 11.5px;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: background .3s;
+    font: 600 13px 'Open Sans', sans-serif;
+}
+
+#contenfBox  input[type=text]:focus, #contenfBox  input[type=password]:focus {
+	background: #FBFAFA;
+	color: rgba(0, 0, 0, .6);
+}
+
+#contenfBox  .loginPosition .usernamePosition label {
+	font: 12px 'Open Sans', sans-serif;
+	position: absolute;
+	margin-top: 2px;
+}
+
+#contenfBox  .loginPosition .passwordPosition .sub-link {
+    font: 12px 'Open Sans', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: #969696;
+}
+
+#loginForm #contenfBox  .checkBoxes {
+    background: #f4f4f4;
+    -webkit-appearance: none;
+    padding: 7px;
+    -webkit-border-radius: 1px;
+    display: inline-block;
+    position: relative;
+    outline: none;
+}
+
+#loginForm #contenfBox  .checkBoxes:checked {
+	background: #FBFAFA;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+}
+
+#loginForm #contenfBox  .checkBoxes:checked:after {
+	content: '\2714';
+	font-size: 24px;
+	position: absolute;
+	top: -13px;
+	left: 0;
+	color: #1AAD57;
+}
+
+#contenfBox  .loginPosition .loginButton {
+    padding: 10px 30px;
+    background: #FBFAFA;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    outline: none;
+    font: 800 14px 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, .6);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: background .3s;
+}
+
+#contenfBox  .loginPosition .loginButton:active {
+	background: #C6C6C6;
+}
+
+#contenfBox  .hoteIview {
+    background: #f4f4f4 url(/lib/standard/img/neu/header.png) no-repeat 410px bottom;
+    border-radius: 1px;
+    -wekit-border-radius: 1px;
+    height: 229px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+	color:#808080;
+}
+
+#contenfBox  .hoteIview .messageBox {
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+#contenfBox  .hoteIview .messageBox h2 {
+	font: 500 30px 'Open Sans', sans-serif;
+}
+
+#contenfBox  .hoteIview .registerButtons {
+    padding: 20px;
+    background: #20b2aa;
+    border-radius: 3px;
+    background-color: #20B2AA;
+    border-bottom: 2px solid #248680;
+    color: #fff;
+    font: bold 18px 'Open Sans', sans-serif;
+    text-decoration: none;
+    width: 250px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    right: 128px;
+    top: 77px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .3);
+    transition: background .3s;
+}
+
+#contenfBox  .hoteIview .registerButton:active {
+	background: #1AAD57;
+}
+
+#smallBoxes {
+    padding: 15px;
+    -webkit-border-radius: 1px;
+    width: 295.3px;
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, .2), 1px 0 1px rgba(0, 0, 0, .2);
+    margin-right: 10px;
+    background-color: #fff;
+    z-index: -1;
+    float: left;
+    background: #FFF;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    height: 70px;
+    border-radius: 3px;
+}
+
+#smallBoxes:last-child {
+	margin-right: 0px;
+}
+
+#smallBoxes p {
+	font: 300 14px 'Open Sans', sans-serif;
+	width: 200px;
+	margin-left: 70px;
+	margin-top: 0px;
+}
+
+#smallBoxes .images1 {
+	background: url(/lib/standard/img/neu/index_image3.png) no-repeat center center;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	float: left;
+}
+
+#smallBoxes .images2 {
+	background: url(/lib/standard/img/neu/index_image2.png) no-repeat center center;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	float: left;
+}
+
+#smallBoxes .images3 {
+	background: url(/lib/standard/img/neu/index_image1.png) no-repeat center center;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	float: left;
+}
+
+#registerForm #contenfBox  #header h2 {
+	position: absolute;
+	margin-left: 400px;
+	font: 300 35px 'Open Sans', sans-serif;
+	margin-top: 3px;
+}
+
+#registerForm #contenfBox  .boxOne {
+	width: 100%;
+	float: left;
+	margin-right: 20px;
+}
+
+#registerForm #contenfBox  .boxTwo {
+	width: 470px;
+	float: left;
+	margin-right: 20px;
+}
+
+#registerForm #contenfBox  .boxThree {
+	width: 470px;
+	float: left;
+}
+
+#registerForm #contenfBox  label {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#registerForm #contenfBox  p {
+	margin-top: 0;
+	font-size: 13px;
+}
+
+#registerForm #contenfBox  span {
+	color: rgba(255, 255, 255, .6);
+}
+
+#registerForm #contenfBox  input[type=text], #contenfBox  input[type=password] {
+    background: #f4f4f4;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    padding: 11.5px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: background .3s;
+    font: 600 13px 'Open Sans', sans-serif;
+}
+
+#registerForm #contenfBox  input[type=text]:focus, #contenfBox  input[type=password]:focus {
+	background: #FBFAFA;
+	color: rgba(0, 0, 0, .6);
+}
+
+#registerForm #contenfBox  select {
+	background: #f4f4f4;
+	border: none;
+	outline: none;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 10.5px;
+	width: 154.2px;
+	margin-bottom: 5px;
+	transition: background .3s;
+	font: 600 13px 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+	color: #808080;
+}
+
+#registerForm #contenfBox  select:focus {
+	background: #FBFAFA;
+	color: rgba(0, 0, 0, .6);
+}
+
+#registerForm #contenfBox  input[type=submit] {
+    background-color: #20B2AA;
+    border-bottom: 2px solid #248680;
+    padding: 8px 0px;
+    -webkit-border-radius: 1px;
+    color: #fff;
+    font: bold 18px 'Open Sans', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+    transition: background .3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+#registerForm #contenfBox  input[type=submit]:active {
+	background: #1AAD57;
+}
+
+#registerForm #contenfBox  .checkBoxes {
+	background: #4C4C4C;
+	-webkit-appearance: none;
+	padding: 7px;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	display: inline-block;
+	position: relative;
+	outline: none;
+}
+
+#registerForm #contenfBox  .checkBoxes:checked {
+	background: #FBFAFA;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+}
+
+#registerForm #contenfBox  .checkBoxes:checked:after {
+	content: '\2714';
+	font-size: 24px;
+	position: absolute;
+	top: -13px;
+	left: 0;
+	color: #1AAD57;
+}
+
+#registerForm #contenfBox  .sub-link {
+	font-size: 13px;
+	margin-top: 0px;
+	position: absolute;
+}
+
+#contenfBox  #footer-content {
+	height: 60px;
+	width: 100%;
+	font: 300 12px 'Open Sans', sans-serif;
+	border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+#contenfBox  #footer-content .left {
+	float: left;
+}
+
+#contenfBox  #footer-content .right {
+	float: right;
+	margin-top: 24px;
+   color: #808080;
+}
+
+#contenfBox  #footer-content .left .facebookContent {
+    background: url(/lib/standard/img/neu/BKtXnl9.gif);
+    height: 94px;
+    width: 213px;
+}
+#contenfBox  #footer-content .left .snapchat {
+	background: url(/lib/standard/img/neu/facebook.png);
+	height: 26px;
+    width: 20px;
+    margin-top: 27px;
+}
+#meldung_error {
+	width:100%;
+	height:30px;
+	position:absolute;
+	background:#F44336;
+	color:#fff;
+	text-align:center;
+	padding-top:6px;
+	left:0;
+	right:0;
+	font-size:16px;
+	border-bottom: 2px solid rgba(0,0,0,0.25);
+}
+#meldung_erfolg {
+	width:100%;
+	height:30px;
+	position:absolute;
+	background:#4CAF50;
+	color:#fff;
+	text-align:center;
+	padding-top:6px;
+	left:0;
+	right:0;
+	font-size:16px;
+	border-bottom: 2px solid rgba(0,0,0,0.25);
+	}

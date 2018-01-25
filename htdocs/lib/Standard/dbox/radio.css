@@ -1,0 +1,6 @@
+.radio_box{background:#f2f2f2;border-radius:5px;width:195px;height:32px;padding:4px 4px 4px 4px;margin:10px auto 0 auto;}
+div.radio_player{width:200px;margin:5px 65px;}
+div.radio_play{background:url(../img/radio/play.png);width:24px;height:24px;float:left;margin-right:6px;cursor:pointer;}
+div.radio_stop{background:url(../img/radio/stop.png);width:24px;height:24px;float:left;margin-right:5px;cursor:pointer;}
+div.volume_track{background:#1b1b1c;background-position:center;background-repeat:repeat-x;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;width:127px;height:24px;float:left;}
+div.volume_slider{background:url(../img/radio/volume.png);width:24px;height:24px;float:left;}

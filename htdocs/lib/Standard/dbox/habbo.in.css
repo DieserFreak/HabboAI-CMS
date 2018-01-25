@@ -1,0 +1,1528 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Condensed);
+
+.shoutbox {
+    height: 400px;
+    background-color: rgb(255,255,255);
+    border: 0;
+}
+
+.fullwidth {
+    width: 670px;
+}
+
+.rooom {
+    display: block;
+    font-family: Ubuntu;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    padding-left: 20px;
+    background-position: right -16px;
+    background: rgba(255, 255, 255, 0.69);
+    color: rgba(84, 82, 77, 0.77);
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+.remotestyle {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px 2px #BABABA;
+    color: #FFFFFF;
+    display: block;
+    font-family: Ubuntu;
+    padding: 1px;
+    float: left;
+    left: 0px;
+    position: absolute;
+    padding-left: 20px;
+    background-position: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.panel, .alert {
+    border: none;
+    background-color: rgb(255,255,255);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.05);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Glow(Color=#ff000000,Strength=5)";
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#ff000000,Strength=5);
+}
+
+
+
+.remotetab {
+    display: block;
+    padding: 1px;
+    float: left;
+    background: rgba(63, 63, 63, 1);
+    border-bottom: 2px solid rgba(25, 25, 25, 0.42);
+    box-shadow: inset 0 -1px 0 0 rgb(63, 63, 63), 0 0 0px 3px rgb(63, 63, 63);
+    left: 0px;
+    position: absolute;
+    padding-left: 20px;
+    background-position: center;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.btn
+{
+	border: 3px solid transparent;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-right: 12px;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+.btn.medium
+{
+	border: 2px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 2px #082641;
+	font-family: Ubuntu;
+	font-size: 18px;
+	padding: 5px 8px 5px 8px;
+}
+.btn.condensed
+{
+	font-family: Ubuntu Condensed;
+}
+.btn.red
+{
+	background: #AC1A4F;
+	border-color: #F37387;
+}
+.btn.green
+{
+    border: 2px solid rgb(92, 180, 68);
+    background-color: rgb(43, 142, 0);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+.btn.green:hover
+{
+    border: 2px solid rgb(93, 191, 67);
+    background-color: rgb(42, 140, 0);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+.btns
+{
+	border: 3px solid transparent;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 18px;
+	margin-right: 12px;
+	margin-top: 20px;
+	padding: 3px;
+	text-decoration: none;
+	float:right;
+}
+.btns.red
+{
+	background: #AC1A4F;
+	border: 3px solid #F37387;
+}
+.btns.green
+{
+	background: #019E55;
+	border: 3px solid #B6F272;
+}
+/*.btn:active
+{
+	position: relative;
+	top: 1px;
+}*/
+.bullet {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+.bullet-title
+{
+	border-radius: 5px;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: auto;
+}
+.bullet-button
+{
+	bottom: 10px;
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+.bullet-content
+{
+	border-radius: 5px;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 14px;
+	max-width: 300px;
+	padding: 10px;
+	text-align: justify;
+}
+#left-column .box + .box
+{
+	margin-top: 10px;
+}
+#right-column .box + .box
+{
+	margin-top: 10px;
+}
+#left-column
+{
+	font-weight: normal;
+	width: 55%;
+}
+#right-column {
+    float: right;
+    width: 54.8%;
+}
+#mid-column
+{
+	float: left;
+	width: 48%;
+}
+#mid-column .box + .box
+{
+	margin-top: 10px;
+}
+#content
+{
+	display: block !important;
+    margin-top: 50px;
+}
+#footer
+{
+	float:left;
+	width: 100%;
+	display: block !important;
+	margin-top: auto;
+	margin-bottom: 30px;
+}
+#avatar-box {
+    color: #F7F7F5;
+    float: left;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    padding: 4px;
+    margin-right: 20px;
+    background: url('/lib/standard/img/header_int.png') no-repeat;
+    background-position: right -33px;
+}
+#avatar
+{
+    float: left;
+    height: 195px;
+    width: 510px;
+}
+#avatar-info {
+    color: #FFFFFF;
+    float: left;
+    font-family: Ubuntu Condensed;
+    font-size: 28px;
+    margin-left: -360px;
+    margin-top: 15px;
+}
+#avatar-info.uotw
+{
+}
+.databox {
+    font-family: Ubuntu;
+    font-size: 13px;
+    line-height: 100%;
+}
+.databox > .mid {
+    height: 29px;
+    float: left;
+    width: 100px;
+    background-image: url('/lib/standard/img/databox/mid.png');
+    padding: 7px 3px;
+}
+.databox > .mid > .amount {
+    color: #ddaa1d;
+    float: right;
+    font-weight: 300;
+	margin-top: -12px;
+}
+.databox > .mid > .amount {
+    color: #ddaa1d;
+    float: right;
+    font-weight: 300;
+}
+.databox > .credits {
+    height: 29px;
+    width: 29px;
+    float: left;
+    background-image: url('/lib/standard/img/databox/credits.png');
+}
+.databox > .left {
+    width: 4px;
+    height: 29px;
+    float: left;
+    background-image: url('/lib/standard/img/databox/left.png');
+}
+.databox > .duckets {
+    height: 29px;
+    width: 29px;
+    float: left;
+    background-image: url('/lib/standard/img/databox/duckets.png');
+}
+.databox > .diamonds {
+    height: 29px;
+    width: 29px;
+    float: left;
+    background-image: url('/lib/standard/img/databox/diamonds.png');
+}
+.time {
+	height: 37px;
+    width: 100%;
+    position: absolute;
+}
+.time.day {
+    background: url('/lib/standard/img/xmaslights.gif');
+}
+.motto {
+    color: #FFFFFF;
+    font-family: Ubuntu Condensed;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1
+{
+	color: rgba(84, 82, 77, 0.87);
+	font-family: Ubuntu Condensed;
+	font-size: 28px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+.last-seen
+{
+	color: #fff;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 17px;
+
+}
+.box
+{
+	display: block !important;
+	min-height: 310px;
+	width: auto;
+}
+.room_remote {
+    display: block;
+    font-family: Ubuntu;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #F7F7F5;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    padding-left: 20px;
+    height: 250px;
+    background: url('/lib/standard/img/header_int.png');
+    background-position: right -25px;
+}
+
+.room_remote2 {
+    background: rgba(28, 70, 109, 0.7);
+    border: 2px solid #2D5B81;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 3px #082641;
+    color: #fff;
+    display: block;
+    font-family: Ubuntu;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    background-position: center;
+}
+
+.talerbz {
+    float: right;
+    background: #A58D57;
+    width: 225px;
+    height: 30px;
+    line-height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 2px solid #E3C47C;
+    -webkit-box-shadow: 0 0 0 1px #000;
+    box-shadow: 0 0 0 1px #000;
+    color: #FFF;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.talerbz .icon {
+    float: right;
+    background: url('/lib/standard/img/neu/incon/v2y6rCv.png') no-repeat;
+    background-position: 35% 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    border: 2px solid #E3C47C;
+    margin-top: -2px;
+    margin-right: -3px;
+    -webkit-box-shadow: 0 0 0 1px #000;
+    box-shadow: 0 0 0 1px #000;
+}
+
+
+.room_remote2.users {
+    background: #0C8F00;
+    border: 2px solid #4FBB16;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font-family: Ubuntu Condensed;
+    margin-right: -4px;
+    margin-top: -6px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.room {
+    background: rgba(28, 70, 109, 0.7);
+    display: block;
+    font-family: Ubuntu;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #F7F7F5;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    padding-left: 20px;
+    background: url('/lib/standard/img/header_int.png');
+    background-position: right -16px;
+}
+.roomblue
+{
+	background: rgba(28, 70, 109, 0.7);
+	border: 2px solid #2D5B81;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	display: block;
+	font-family: Ubuntu;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-left: 20px;
+}
+.roomblue.users
+{
+	background: #0C8F00;
+	border: 2px solid #4FBB16;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-family: Ubuntu Condensed;
+	margin-right: -4px;
+	margin-top: -6px;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.room .users
+{
+	background: #0C8F00;
+	border: 2px solid #4FBB16;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-family: Ubuntu Condensed;
+	margin-right: -4px;
+	margin-top: -6px;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.room .usersorange
+{
+	background: #FF4000;
+	border: 2px solid #FA8258;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-family: Ubuntu Condensed;
+	margin-right: -4px;
+	margin-top: -6px;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.room .usersred
+{
+	background: #FE2E2E;
+	border: 2px solid #FA5858;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-family: Ubuntu Condensed;
+	margin-right: -4px;
+	margin-top: -6px;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.socialmedia-item2
+{
+	background: rgba(28, 70, 109, 0.7);
+	border: 2px solid #2D5B81;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #F7F7F5;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background: url('/lib/standard/img/header_int.png') no-repeat;
+}
+.socialmedia-item {
+    color: rgba(84, 82, 77, 0.77);
+    font-family: Ubuntu Condensed;
+    font-size: 18px;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 9990;
+    float: left;
+    width: 447px;
+    background: #FFF;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.socialmedia-item p
+{
+	display: inline;
+	float: left;
+}
+.socialmedia-item a
+{
+	margin-top: 0px;
+}
+.socialmedia-item h2
+{
+	margin: 0px;
+	margin-bottom: -10px;
+}
+select
+{
+	background: #CCD8DF;
+	border: 3px solid #275D8E;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #9EBECC;
+	color: #798B90;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu Condensed;
+	font-size: 20px;
+	margin-right: 12px;
+	outline: 0;
+	padding: 4px;
+	width: 100%;
+}
+input {
+	color: #6C6A66;
+    display: block;
+    background: rgba(255, 255, 255, 0.58);
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    font-family: Ubuntu Condensed;
+    font-size: 17px;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+}
+textarea {
+    background: #ffffff;
+    border: 3px solid #275D8E;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px #ffffff;
+    color: #798B90;
+    display: block;
+    font-family: Ubuntu Condensed;
+    font-size: 17px;
+    margin-top: 15px;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+}
+
+p.legend
+{
+    color: #797773;
+	font-size: 16px;
+	margin-top: -15px;
+}
+.topuser
+{
+	width: 18%;
+	margin-right: 9px;
+	margin-left: 9px;
+	font-size: 16px;
+}
+.topuseravatar
+{
+	float:left;
+	margin-right:5px;
+}
+.message
+{
+	border: 2px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 2px #082641;
+	color: #fff;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.message.error
+{
+	background: #AC1A4F;
+	border-color: #F37387;
+}
+.message.success
+{
+	background: #019E55;
+	border-color: #B6F272;
+}
+.character
+{
+	background: rgba(28, 70, 109, 0.7);
+	border: 2px solid #2D5B81;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #F7F7F5;
+	cursor: pointer;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-bottom: 20px;
+	overflow: auto;
+	padding: 20px;
+}
+.character:hover
+{
+	border-color: rgba(255,255,255,0.2);
+	transition: background .3s ease-in-out;
+	transition: border-color .3s ease-in-out;
+}
+.selected
+{
+	background: #185C83;
+	border-color: #3C81A8;
+}
+.selected:hover
+{
+	border-color: #3C81A8;
+}
+.credits-item
+{
+	background: rgba(28, 70, 109, 0.7);
+	border: 2px solid #2D5B81;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #7d9da9;
+	cursor: pointer;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.small
+{
+	color: #c1cf75;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 7px;
+}
+.credits-item:hover
+{
+	background-color: #407358;
+	border: 2px solid #b1e796;
+	border-radius: 5px;
+	color: #d1edf8;
+	webkit-border-radius: 5px;
+}
+.icon
+{
+	display: block;
+	display: inline;
+	float: left;
+	height: 22px;
+	margin-right: 5px;
+	margin-top: 4px;
+	vertical-align: middle;
+	width: 22px;
+}
+.icon.coins
+{
+	background: url(../img/rare.png);
+	background-repeat: no-repeat;
+}
+.icon.dias
+{
+	background: url(../img/habbo_dias_icon.png);
+	background-repeat: no-repeat;
+}
+.icon.vip
+{
+	background: url(../img/habbo_vip_icon.png);
+	background-repeat: no-repeat;
+}
+.icon.bundle
+{
+	background: url(../img/habbo_bundle_icon.png);
+	background-repeat: no-repeat;
+}
+.cost
+{
+	color: #faefda;
+	float: right;
+	opacity: .9;
+	text-shadow: 1px 1px 1px #100c08;
+}
+.popup
+{
+	background-color: #009658;
+	background-color: rgba(0,150,88,0.9);
+	border-radius: 5px;
+	color: #fff;
+	display: none;
+	font-family: Ubuntu Condensed;
+	padding: 20px;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	width: 200px;
+	z-index: 999;
+}
+.payment-modal
+{
+	display: none;
+	height: 500px;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -250px;
+	position: absolute;
+	top: 50%;
+	width: 600px;
+	z-index: 998;
+}
+#overlay
+{
+	background: rgb(16, 16, 22);
+	bottom: 0px;
+	cursor: pointer;
+	display: none;
+	height: 100%;
+	left: 0px;
+	opacity: 0.9;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+.payment-modal hr
+{
+	border: 0;
+	border-color: #466778;
+	border-top: 1px solid #ccc;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 90%;
+}
+.btn.payment
+{
+	display: inline;
+}
+#purchase-buttons
+{
+	margin: 0 auto;
+	padding: 0;
+	width: 290px;
+}
+.payment-modal h2
+{
+	color: #5198be;
+	font-family: Ubuntu Condensed;
+	font-size: 30pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.payment-modal .payment-content
+{
+	background-color: #0a3344;
+	background-color: rgba(10,51,68,0.95);
+	border: 2px solid #5b85a5;
+	border-radius: 5px;
+	height: 100%;
+	moz-border-radius: 5px;
+	padding: 20px;
+	webkit-border-radius: 5px;
+	width: 100%;
+}
+.payment-modal .confirm-car
+{
+	float: left;
+	margin-right: 10px;
+	position: absolute;
+}
+.payment-modal h3
+{
+	color: #5198be;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.payment-modal td
+{
+	font-family: Ubuntu;
+	font-weight: bold;
+}
+.payment-modal .info
+{
+	background-color: #0f758e;
+	background-color: rgba(22,219,255,0.4);
+	border: 2px solid #96e2e7;
+	border-radius: 5px;
+	color: #cbe1e8;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	height: 35px;
+	margin: 50px;
+	margin-bottom: 20px;
+	moz-border-radius: 5px;
+	padding: 5px;
+	webkit-border-radius: 5px;
+}
+.payment-modal .info .cl
+{
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+.payment-modal .info .info-container
+{
+	margin: 0 auto;
+}
+.payment-modal .info-header
+{
+	margin-bottom: -35px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+}
+.payment-modal .info-header .cl
+{
+	color: #fff;
+	float: left;
+	font-family: Ubuntu Condensed;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	width: 33%;
+}
+.payment-modal input
+{
+	background-color: #9ec6dc;
+	border: 0;
+	border: 2px solid #9ec6dc;
+	border-radius: 6px;
+	color: #002b3c;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+}
+.payment-modal .confirm-email
+{
+	color: #72abc2;
+	font-size: 11pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.payment-modal h1
+{
+	color: #51a0c0;
+	font-family: Ubuntu Condensed;
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+	width: inherit;
+}
+#confirm-car
+{
+	left: -70px;
+	position: absolute;
+	top: 180px;
+}
+img
+{
+	vertical-align: middle;
+}
+img
+{
+	border: 0;
+	ms-interpolation-mode: bicubic;
+}
+.payment-modal .payment-what-is-inside
+{
+	color: #105b76;
+	font-size: 12px;
+	padding: 6px 10px 10px;
+	text-align: center;
+}
+.payment-modal .what-is-inside-header
+{
+	color: #cbe1e8;
+	font-family: Ubuntu Condensed;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-top: 40px;
+	padding-left: 10px;
+}
+.special-offer
+{
+	background-color: #351f47;
+	background-color: rgba(105,19,81,0.5);
+	border: 3px solid #9e7893;
+	border-radius: 5px;
+	color: #8b93b5;
+	font-family: Ubuntu Condensed;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	moz-border-radius: 5px;
+	padding: 20px;
+	padding-left: 70px;
+	webkit-border-radius: 5px;
+	width: 100%;
+}
+#promo-icon
+{
+	float: left;
+	margin-left: -20px;
+	margin-top: 25px;
+}
+#top-bar-triangle
+{
+	border-color: #101016 transparent;
+	border-color: rgba(7, 43, 67, 0.9) transparent;
+	border-style: solid;
+	border-width: 29px 29px 0 29px;
+	float: left;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	margin: 0;
+}
+#top-bar-triangle-border
+{
+	height: 29px;
+	width: 58px;
+}
+#top-bar-triangle, #top-bar-triangle-border
+{
+	left: 163px;
+	position: absolute;
+	top: 150px;
+}
+#left-column.stories
+{
+	font-weight: normal;
+	width: 30%;
+}
+#right-column.stories
+{
+	float: right;
+	width: 63%;
+}
+.stories-topstory {
+    background: rgba(7, 43, 67, 0.6);
+    padding: 40px;
+    margin-bottom: 5px;
+    border: 3px solid #FFF;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    border-radius: 4px;
+    overflow: auto;
+    cursor: pointer;
+    color: #ffffff;
+}
+.stories-topstory:hover
+{
+	background: rgba(7, 43, 67, 0.5);
+}
+.story a 
+{
+	color: #D7BD98;
+	display: block;
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.stories-list {
+    background: rgb(246, 246, 246);
+    padding: 10px;
+    font-family: Ubuntu Condensed;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    list-style: none;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+	margin-top: 0px;
+}
+.stories-list h2
+{
+	font-family:Ubuntu Condensed;
+	font-size:18px;
+}
+.stories-list li
+{
+
+
+	color:white;
+
+	font-size:16px;
+	display:block;
+	border-radius:4px;
+	margin-left:0;
+	margin-bottom:10px;
+	border:2px solid transparent;
+	cursor:pointer;
+	
+}
+.stories-list li:hover
+{
+color:#EEBA2D;
+}
+p
+{
+	font-family:Ubuntu Condensed;
+	font-size:17px;
+}
+.stories-list li:active
+{
+	position:relative;
+	top:1px;
+}
+.box.mtop
+{
+	margin-top:20px;
+}
+.box .story
+{
+	margin-bottom:20px;
+	background:rgba(0,0,0,0.4);
+	padding:20px;
+	border-radius:3px;
+	box-shadow: 0px 1px 0px 3px #082641;
+}
+.box .story span.date
+{
+	font-size:22px;
+	font-weight:normal;
+	color:#C79A38;
+	display:inline;
+}
+.box .story span.title
+{
+	font-size:22px;
+	font-weight:normal;
+	color:#84591F;
+	display:inline;
+}
+.box .story p.story-p
+{
+	font-size:17px;
+}
+#left-column.rarevalues
+{
+	font-weight: normal;
+	width: 30%;
+}
+#right-column.rarevalues
+{
+	float: right;
+	width: 63%;
+}
+input.search
+{
+	margin-bottom:20px;
+	border:2px solid #275D8E;
+}
+#rarevalues-list
+{
+	
+}
+#rarevalues-list span.ca
+{
+	position:relative;
+	background: #014C7A;
+	border: 2px solid #1C7099;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 2px #082641;
+	color: #fff;
+	display: block;
+	font-family: Ubuntu Condensed;
+	margin-top:5px;
+	padding: 10px;
+	cursor:pointer;
+}
+#rarevalues-list span.ca:hover
+{
+	border:2px solid #47B0E6;
+	background:#1E6EA1;
+}
+#rarevalues-list span.ca.active
+{
+	border:2px solid #47B0E6;
+	background:#1E6EA1;
+}
+#rarevalues-list span.in
+{
+	background:rgba(0,0,0,0.5);
+	border-radius:4px;
+	cursor:pointer;
+	padding:10px;
+	display:block;
+	display:none;
+	margin-top:5px;
+    font-family: Ubuntu Condensed;
+}
+#rarevalues-list span.in:hover
+{
+	background:rgba(0,0,0,0.3);
+}
+#item-preview
+{
+	background:url(../img/habbo_furni_preview.png) no-repeat;
+	height:159px;
+	width:318px;
+	margin:0 auto;
+	margin-top:100px;
+}
+#item-preview img 
+{
+
+
+}
+#category-items
+{
+	margin-top:40px;
+	width:320px;
+	height:150px;
+	overflow:auto;
+	padding:5px;
+	padding-top:0px;
+}
+
+#category-items span
+{
+	cursor:pointer;
+background: rgba(0,0,0,0.3);
+	border: 2px solid #315E85;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px 2px #082641;
+float:left;
+	padding-top:15px;
+	padding-bottom:15px;
+    padding-left:20px;
+    padding-right:20px;
+	margin-top:10px;
+	margin-right:10px;
+
+}
+
+#category-items span:hover
+{
+	background: rgba(0,0,0,0.2);
+	border: 2px solid #3A80A7;
+}
+
+#item-info{
+	font-family:Ubuntu Condensed;
+	margin-top:40px;
+	float:right;
+    text-align:right;
+}
+#item-info #item-name
+{
+	font-size:28px;
+	display:block;
+}
+#item-info #item-description
+{
+	font-size:18px;
+	color:#70B9DE;
+}
+.credits-teaser 
+{
+	padding:10px;
+	float:right;
+	height:225px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius:4px;
+	width:450px;
+	margin-top:15px;
+}
+.credits-teaser img
+{
+margin-left:-200px;
+margin-top:-15px;
+}
+.credits-teaser h1 {
+	margin-left:190px;
+	font-family:Ubuntu Condensed;
+	font-size:28px;
+	margin-top:10px;
+}
+.credits-teaser p {
+	margin-left:190px;
+	font-family:Ubuntu Condensed;
+	font-weight:700;
+	font-size:18px;
+    color: rgba(84, 82, 77, 0.87);
+	margin-right:30px;
+	margin-top:0px;
+}
+
+
+#left-column.badgeshop
+{
+	font-weight: normal;
+	width: 67%;
+}
+#right-column.badgeshop
+{
+	float: right;
+	width: 26%;
+}
+span.badge-item {
+    padding: 20px;
+    display: block;
+    background: rgba(255, 255, 255, 0.69);
+    overflow: auto;
+    font-family: Ubuntu Condensed;
+    cursor: pointer;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    font-size: 20px;
+}
+span.badge-item:hover
+{
+	background:#1E6DA0;
+	border:2px solid #47B0E6;
+}
+span.badge-item:active
+{
+	position:relative;
+	top:1px;
+}
+span.badge-item img 
+{
+	margin-right:20px;
+	float:left;
+}
+span.badge-item .cost
+{
+color: rgb(220, 220, 220);
+float: right;
+text-align:right;
+opacity: .9;
+text-shadow: 1px 1px 1px #100c08;
+
+}
+span.badge-item div
+{
+	position:absolute;
+	display:inline;
+	left:100px;
+	top:30px;
+}
+
+span.badge-item i 
+{
+	font-size:14px;
+}
+
+#badge-list 
+{
+	max-height:300px;
+	margin-top:20px; 
+	overflow:auto; 
+	padding:10px;
+	padding-left:0px
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #0089ca;
+}
+
+::-webkit-scrollbar-track {
+background: #2f2f2f;
+}
+.habbo-scroll::-webkit-scrollbar
+{
+	background: transparent;
+	width: 12px;
+}
+.habbo-scroll::-webkit-scrollbar-thumb
+{
+	background-clip: content-box;
+	background-color: #0FA4B5;
+	border: 4px solid transparent;
+	border-radius: 9px;
+	cursor: pointer;
+	margin: 200px;
+}
+.habbo-scroll::-webkit-scrollbar-track
+{
+	background: #17171D;
+	border: 2px solid #225177;
+	border-radius:6px;
+}
+h1.article-title
+{
+	color: #103960;
+}
+hr.article-hr
+{
+	border: 0;
+	border-color: #88DAFF;
+	border-top: 1px solid #88DAFF;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1.lightblue
+{
+	color: #103960;
+}
+h1.purple
+{
+	color: #d4a1ce;
+}
+.account-save-changes
+{
+	float:left; 
+	display:inline; 
+	font-family:Ubuntu Condensed; 
+	font-size:17px	
+}
+.article-date
+{
+	color:#EEBA2D; 
+	font-family:Ubuntu Condensed
+}
+.article-habbo-heads
+{
+    color: #D8D8D8;
+}
+.btn.lg
+{
+	float:right;
+	margin-top:18px
+	
+}
+.current-character-text
+{
+	float:right;
+	color:#88DAFF
+}
+.character-text
+{
+	float:right;
+	color:#fff
+}
+#play-btn
+{
+	display:none;
+	margin-right:0px;
+	float:right
+}
+.whats-inside-title
+{
+	margin-top:40px;
+	font-family: Ubuntu Condensed;
+	font-weight: bold;
+	font-size: 16px;
+	color: #cbe1e8;
+	padding-left: 10px;
+	margin-bottom:-10px
+}
+.whats-inside-text
+{
+	text-align: center;
+	color: #105b76;
+    padding: 6px 10px 10px; 
+    font-size:12px
+}
+.message.error.vampire
+{
+	background: #2A2821;
+	border-color: #54524C;
+	color: #F27286;
+	font-size: 24px;
+}
+.stafflist
+{
+	width:33%;
+	float:left;
+	font-size:14px;
+}
+.stafflistuser {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, .07);
+    border: 2px solid #CCCCCC;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.socialmedia-itemex {
+    color: rgba(84, 82, 77, 0.77);
+    font-family: Ubuntu Condensed;
+    font-size: 18px;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 9990;
+    float: left;
+    width: 468px;
+    background: #FFF;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.accountselect {
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    color: #797773;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+    display: inline-block;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-right: 12px;
+    outline: 0;
+    padding: 4px;
+}
+
+input[type=radio] {
+    display:none;
+    margin:10px;
+}
+ 
+input[type=radio] + label {
+	display: inline-block;
+    background: rgba(255, 255, 255, 0.58);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 3px #BABABA;
+    color: #7d9da9;
+    cursor: pointer;
+    display: block;
+    font-family: Ubuntu Condensed;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type=radio]:checked + label {
+	background-color: #407358;
+	border: 2px solid #b1e796;
+	border-radius: 5px;
+	color: #d1edf8;
+	webkit-border-radius: 5px;
+}
+
+.slidesjs-previous, .slidesjs-next{display: none;}
+.slidesjs-container, .slidesjs-control, .slidesjs-slide {width: 521px!important;height: 241px!important;}
+.slidesjs-pagination{margin: 0;padding-left: 10px;display: table;margin-top: -228px;position: absolute;z-index: 100;width: 555px;}
+.slidesjs-pagination-item .active div{background: rgba(255, 255, 255, 0.7) !important;}
+.slidesjs-pagination-item .active div:hover{background: rgba(255, 255, 255, 0.89) !important;}
+.slidesjs-pagination-item div{cursor:pointer;float:left;margin-right:4px;background: rgba(0, 0, 0, 0.71);-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius: 70px;width: 10px;height: 10px;}
+.slidesjs-pagination-item div:hover{background: rgba(0, 0, 0, 0.84);}
+#slides li{list-style: none;}
+#slides #news-info{background: rgba(0, 0, 0, 0.75);color: white;display: table;width: 610px;margin-top: 185px;border-radius: 0px 0px 5px 5px;padding: 4px 10px;font-size: 13px;text-shadow: 1px 1px black;}
+#slides img{border-radius:5px;}
+#slides {
+    background: rgba(28, 70, 109, 0.7);
+    height: 240px;
+    position: relative;
+    width: 100%;
+    color: #F7F7F5;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1), -2px -2px 0px rgba(0,0,0,0.1), -2px 2px 0px rgba(0,0,0,0.05), 2px -2px 0px rgba(0,0,0,0.05);
+}
+
+.lightbox-image-link{display:inline-block;padding:4px;margin:0 0.5rem 1rem 0.5rem;background-color:#fff;line-height:0;-webkit-transition:background-color 0.1s ease-out;-moz-transition:background-color 0.1s ease-out;-o-transition:background-color 0.1s ease-out;transition:background-color 0.1s ease-out;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px}
+.lightbox-image-link:hover{background-color:#4ae}
+.lightbox-image{width:92px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px}

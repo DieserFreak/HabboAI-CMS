@@ -1,0 +1,123 @@
+body{
+background: radial-gradient(#59AAD2, #03567B);
+background: -moz-radial-gradient(#59AAD2, #03567B);
+background: -webkit-radial-gradient(#59AAD2, #03567B);
+background: -ms-radial-gradient(#59AAD2, #03567B);
+background: -o-radial-gradient(#59AAD2, #03567B);
+color: #fff;
+font-family: 'Gidole', sans-serif;
+}
+
+
+#contenido{
+width: 900px;
+padding-bottom: 0;
+margin: auto;
+}
+
+#box{
+background-color: #2f2f2f;
+border-radius: 1px;
+box-shadow: 0px 0px 12px #282828;
+padding: 10px;
+margin-top: 10px;
+margin-right: 16px;
+}
+
+#imagen_n{
+height: 96px;
+width: 445px;
+padding: 10px;
+}
+
+.info{
+background-color: rgba(73, 73, 73, 0.66);
+padding: 5px;
+margin-bottom: 5px;
+}
+
+.ons{
+background-image: url('ons.png');
+background-position: -1px 217px;
+background-repeat: repeat-y;
+height: 72px;
+width: 437px;
+text-align: right;
+padding-left: 10px;
+padding-top: 15px;
+font-size: 24px;
+}
+
+.habbos{
+background-image: url('habbos.png');
+background-repeat: no-repeat;
+width: 471px;
+height: 80px;
+background-position: 0 -96px;
+text-align: right;
+padding-left: 38%;
+padding-top: 2%;
+font-size: 21px;
+}
+
+.h-reg{
+background-image: url('habbos.png');
+width: 512px;
+height: 330px;
+float: right;
+}
+.h-forget{
+background-image: url('habbos.png');
+width: 512px;
+height: 200px;
+float: right;
+}
+.look{
+background-repeat: no-repeat;
+background-position: 2px -3px;
+background-color: rgba(47, 47, 47, .8);
+width: 70px;
+height: 70px;
+margin-right: 20px;
+margin-top: 12px;
+border-radius: 50%;
+border: 3px dotted #fff;
+display: inline-block;
+}
+#columna_l{
+width: 400px;
+float: left;
+}
+
+#columna2{
+width: 500px;
+float: left;
+}
+
+#columna3{
+width: 100%;
+float: left;
+}
+@font-face {
+font-family: "Gidole";
+src: url("../fuentes/Gidole-Regular.ttf") format("truetype");
+}
+a{
+text-decoration: none;
+color: #A5B8D2;
+}
+a:hover{
+text-decoration: none;
+color: #639DBE;
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #0089ca;
+}
+
+::-webkit-scrollbar-track {
+background: #2f2f2f;
+}

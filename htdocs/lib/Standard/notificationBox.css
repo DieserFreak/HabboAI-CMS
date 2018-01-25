@@ -1,0 +1,60 @@
+.notificationBoxHide {
+	display: none;
+}
+
+.notificationBox {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	padding: 15px;
+	background: #ffffff;
+	color: #222222;
+	z-index: 1000;
+	font-size: 10pt;
+	display: none;
+	line-height: auto;
+}
+
+.notificationBox .clear {
+	clear: both;
+}
+
+.notificationBox .content {
+	float: none;
+	overflow: hidden;
+	width: auto;
+}
+
+.notificationBox .close {
+	float: right;
+	border-radius: 5px;
+	padding: 8px 15px;
+	width: 120px;
+	text-align: center;
+	display: block;
+	color: #ffffff;
+	text-decoration: none !important;
+	outline: none !important;
+	font-weight: 600;
+	background: #E31E1E;
+	
+	transition: background .4s;
+}
+
+.notificationBox .close:hover {
+	background: #FC2828;
+}
+
+@media only screen and (max-width: 600px) {
+	.notificationBox .content,
+	.notificationBox .close {
+		float: none;
+		width: 100%;
+	}
+	
+	.notificationBox .close {
+		margin-bottom: 10px;
+	}
+}

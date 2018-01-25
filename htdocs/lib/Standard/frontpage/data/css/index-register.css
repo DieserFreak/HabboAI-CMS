@@ -1,0 +1,590 @@
+/* loading */
+
+#loading {
+	background-color:#272727;
+}
+
+#loading::after {
+  content: "";
+background-image: url("http://img15.hostingpics.net/pics/762407hill.png");
+  opacity: 0.06;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* me page */
+
+#me {
+background-color: #3d9cdd;
+    margin: 0px;
+    padding: 0px;
+    background: #3d9cdd url(../images/bgneu.png)no-repeat center center;
+        -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#me .bd-titel {
+	color: white;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.13);
+	
+}
+
+#me .tit-titel {
+	color: white;
+    font-size: 25px;
+    margin-top: 48px;
+    float: left;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.52);
+}
+
+#me .tit-titel2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 79px;
+    float: left;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.52);
+    position: relative;
+    margin-left: -67px;
+}
+
+#me .gb-com {
+	width: 100%;
+    height: 79px;
+    background-color: #efefef;
+    border: solid 1px lightgrey;
+}
+
+#me .aboutme {
+width: 100%;
+    background-color: #efefef;
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.58);
+    font-family: PT sans;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+#me .textu {
+	margin-top:15px;
+}
+
+#me .kreis {
+background: white url(http://www.habbost.us/habbo-imaging/avatarimage.php?username=DrFirestorm&size=b&direction=2&action=crr=667&head_direction=2&gesture=sml)center center;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 46px;
+    float: left;
+    border: solid 3px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.18);
+   }
+
+#me .titelbild {
+    background: url(http://hab-blog.weebly.com/uploads/1/2/1/7/12173803/2854935_orig.gif);
+    height: 179px;
+    width: 100%;
+}
+
+#me .bd-box {
+    background: rgba(0, 0, 0, 0.41) url(http://www.habborator.org/badges/badges/UK6.gif)no-repeat;
+    background-position: center center;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0 0 4px 4px;
+    border-radius: 2px;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+#me .fa-box {
+    background-color: #1b1c21;
+    margin: 4px;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    border-bottom: solid 2px #15161a;
+    background: #1b1c21 url(http://www.habbost.us/habbo-imaging/avatarimage.php?username=DrFirestorm&size=b&direction=4&action=crr=667&head_direction=2&gesture=sml&size=s)no-repeat;
+        background-position: right;
+}
+
+#me #pagecontent {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#me #buttonneu {
+	    position: absolute;
+    z-index: 99;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.32);
+    text-align: center;
+    line-height: 4.6;
+        margin-left: 10px;
+
+}
+
+#me #news {
+	margin:10px;
+	    border: solid 2px #343746;
+}
+
+#me #news .headimage {
+    width: 100%;
+    background: url(http://www.habborator.org/archive/topstory/general_1/toolbar_topstory.gif)no-repeat;
+    height: 185px;
+    background-position: center center;
+}
+
+#me #news .headimage .headtitel {
+background-color: #343746;
+    padding: 9px;
+    font-family: Roboto;
+    font-size: 16px;
+    /* margin-top: 140px; */
+    float: left;
+    color: white;
+    width: 100%;
+}
+
+#me .newsklein {
+	background: url(http://www.habborator.org/archive/topstory/general_1/toolbar_topstory.gif)no-repeat;
+    height: 50px;
+    width: 50px;
+    background-position: right;
+        float: left;
+}
+
+#me .newskleinfont {
+color: white;
+    padding: 15px;
+    padding-left: 59px;
+    font-size: 13px;
+        background-color: #343746;
+}
+
+#super {
+    background: rgba(0, 0, 0, 0.1) url(http://www.habbost.us/habbo-imaging/avatarimage.php?username=DrFirestorm&size=b&direction=4&action=crr=667&head_direction=2&gesture=sml)no-repeat;
+    padding: 10px;
+    box-shadow: inset 0px 0px 0px 2px white;
+    background-position: right;
+}
+
+#me .pageleft {
+	width: 70%;
+	height:auto;
+	float: left;
+}
+
+
+#me .pageright {
+	width: 30%;
+	height:100%;
+	float: right;
+	    background-color: #2e3038;
+}
+
+#me #header {
+    background-color: #343746;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    padding-top: 7px;
+        z-index: 3;
+}
+
+#me .habbologoALT {
+    background: url(../images/logohabbo.png)no-repeat;
+    width: 54px;
+    height: 50px;
+    background-position: 0% -1%;
+    margin-top: 4px;
+    float: left;
+}
+
+#me .habbologo {
+	    background: url(../images/home.png)no-repeat;
+    width: 34px;
+    height: 36px;
+    margin-top: 12px;
+    float: left;
+}
+
+#me .logofont {
+    color: white;
+    font-family: Roboto;
+    border: solid 2px white;
+    float: left;
+    padding: 6px;
+    margin: 13px;
+    border-radius: 2px;
+}
+
+#me .navigation {
+	width: auto;
+    float: right;
+    color: white;
+    word-spacing: 16px;
+    text-align: center;
+    line-height: 3.9;
+    padding-bottom: 0px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+#me .usercounter {
+    background-color: rgba(0, 0, 0, 0.27);
+    float: left;
+    color: white;
+    padding: 8px;
+    margin-top: 13px;
+    border-radius: 2px;
+}
+
+#me .habbouser {
+    float: right;
+    width: 130px;
+    background-color: #4CAF50;
+    height: 36px;
+    margin-top: 13px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.02),0 2px 10px 0 rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 2.3;
+    cursor: pointer;
+        border-radius: 2px;
+}
+
+#changeblock {
+    background-color: #2e3038;
+    padding: 10px;
+        margin-top: 10px;
+    color: white;
+}
+
+#changeunten {
+    background-color: rgba(0, 0, 0, 0.07);
+        margin-top: 10px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+#me #firstpage {
+    background-color: #343746;
+    height: 400px;
+    width: 100%;
+    background: #343746 url(https://habboo-a.akamaihd.net/web_images/habbo-web-articles/8a-Gera%C3%A7%C3%A3o.png)no-repeat;
+    background-position: 950px 38%;
+}
+
+#me .pagesection {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    float: left;
+}
+
+#me .usernavi {width: 100%;
+    height: 170px;
+    padding-top: 133px;}
+#me .userbild {
+	background: url(http://www.habbost.us/habbo-imaging/avatarimage.php?username=DrFirestorm&size=b&direction=2&action=crr=667&head_direction=2&gesture=sml)no-repeat;
+width: 66px;
+    height: 88px;
+    float: left;
+}
+
+#me .welcome {
+    color: white;
+    float: left;
+    margin-top: 23px;
+}
+/* me page */
+
+
+
+#index {
+    background-color: #2679bd;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aa {
+	background-color: #338dac;
+    width: 227px;
+    height: auto;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#warn {
+width: 311px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+    margin-left: 0px;
+    margin-top: 18px;
+    border-bottom: solid 2px rgba(0,0,0,0.18);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.14);
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 9px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding-right: 11px;
+}
+
+#warnarrow {
+	    border: 10px solid transparent;
+    border-right-color: #ffffff;
+    float: left;
+    margin-left: -1px;
+    margin-top: 55px;
+}
+
+.regirechts {
+    float: left;
+    background-color: #13578f;
+    width: 352px;
+    height: 520px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 4px;
+    border: solid 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.13);
+}
+
+#regiinput {
+    padding: 10px;
+    -webkit-box-shadow: inset 0 1px #f5f5f5;
+    box-shadow: inset 0 1px #f5f5f5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 342px;
+    font-size: 15px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 3px;
+    border: solid 2px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.17);
+}
+
+.regi {
+	float: left;
+    background-color: #13578f;
+    width: 370px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 4px;
+    border: solid 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.13);
+}
+
+.regifont {
+    color: white;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin: 11px 0px 0px 10px;
+}
+
+.footi {
+    margin-top: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 357px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.slidernews {
+    height: 270px;
+}
+
+.newsbild { height: 161px;
+    margin-bottom: 6px;}
+
+.news {
+    border: solid 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.16);
+    background-color: #338dac;
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 16px;
+}
+
+.hclass {
+	    border: solid 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.16);
+    background-color: #338dac;
+    border-radius: 4px;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 8px;
+}
+
+#rsbutton {
+	background-color: #4CAF50;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.rarebox {
+    background: url(../images/dragi.png)no-repeat center center;
+    height: 93px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+.loginbox {
+	margin: 10px;
+}
+
+#rsinput {
+	padding: 10px;
+    -webkit-box-shadow: inset 0 1px #f5f5f5;
+    box-shadow: inset 0 1px #f5f5f5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #B5B4B4;
+    width: 100%;
+    font-size: 15px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.06);
+}
+
+.eventclass {
+    background: url(../images/events.png)no-repeat;
+    height: 100px;
+    width: 100px;
+    z-index: 99;
+    position: inherit;
+    margin: 1px;
+    background-position: center center;
+    background-color: #338dac;
+    border: solid 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.16);
+    margin: 50px 74px;
+    float: left;
+}
+
+#page {
+	width: 1000px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.logo {
+    background: url(../images/sprite.png);
+    height: 73px;
+    width: 197px;
+    background-repeat: no-repeat;
+    float: left;
+	margin-top: 25px;
+}
+
+.header {
+height: 171px;
+    background: url(../images/header.png)no-repeat, url()no-repeat, url(../images/hv/valleft.png)no-repeat;
+    background-position: 64% 7%, 16% 10%, 100% 100%;
+    padding-top: 45px;
+}
+
+
+#online {
+    width: 171px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-bottom: solid 2px rgba(0,0,0,0.18);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.14);
+    text-align: center;
+    line-height: 2.6;
+}
+
+#arrow {
+    border: 8px solid transparent;
+    border-right-color: #ffffff;
+    float: left;
+    margin-left: 22px;
+    margin-top: 52px;
+}
+
+
+#section {
+    background-color: white;
+    height: 350px;
+    #box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.slidernav {
+	background-color: #338dac;
+    width: 325px;
+    height: 162px;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.16);
+    float: right;
+    text-align: left;
+    padding: 14px;
+}
+
+#login-alt {
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    width: 247px;
+    height: 350px;
+    border-right: solid 2px rgba(0, 0, 0, 0.09);
+    box-shadow: 3px 0px 0px 0px rgba(0, 0, 0, 0.11);
+        background: #ffffff url(../images/frank.png)no-repeat center center;
+    background-position: 42% 294%;
+}
+
+#login {
+	background-color: white;
+    position: absolute;
+    z-index: 99;
+    width: 247px;
+    height: 550px;
+    border-right: solid 2px rgba(0, 0, 0, 0.09);
+    box-shadow: 3px 0px 0px 0px #2679bd;
+    background: #ffffff url(../images/frank.png)no-repeat center center;
+    background-position: 49% 138%;
+}

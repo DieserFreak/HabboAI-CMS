@@ -1,0 +1,140 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato);
+.mdlghead {
+	background: #e74c3c;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 3px 3px 0px 0px;
+    border-right: 1px solid #c0392b;
+    border-top: 1px solid #E74C3C;
+    border: 1px solid #c0392b;
+    border-left: 1px solid #E74C3C;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+	width: 375px
+}
+
+.mdlg {
+	color: black;
+	position: absolute;
+    left: 50%;
+    left: 1014px;
+    top: 40px;
+    bottom: -50%;
+    font-size: 13px;
+    width: 375px;
+    height: 100px;
+    border: 1px solid #c0392b;
+    border-bottom: 2px solid #c0392b;
+    border-radius: 4px;
+    font-family: Lato;
+    font-weight: light;
+    background: white;
+    width: 376px;
+    height: 210px;
+    z-index: 10000016;
+}
+.onloghead {
+	background: #2ecc71;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 3px 3px 0px 0px;
+    border-right: 1px solid #27ae60;
+    border-top: 1px solid #27ae60;
+    border: 1px solid #27ae60;
+    border-left: 1px solid #27ae60;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+	width: 375px
+	color:black;
+}
+
+.onlog {
+	position: absolute;
+    left: 1014px;
+    top: 40px;
+    bottom: -50%;
+    font-size: 13px;
+    border: 1px solid #27ae60;
+    border-bottom: 2px solid #27ae60;
+    border-radius: 4px;
+    font-family: Lato;
+    background: white;
+    width: 376px;
+    height: 320px;
+    z-index: 10000016;
+}
+.close {
+	float: right;
+    background: url('http://i.imgur.com/jz3PANl.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 19px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}.close:hover {
+	float: right;
+    background: url('http://i.imgur.com/wii7W8t.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 19px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}.close:active {
+	float: right;
+    background: url('http://i.imgur.com/9Pbyf1G.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 19px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.modlogevent {
+	background: white;
+    width: 100%;
+    height: 55.5px;
+	border-bottom: 1px solid #B3B3B3;
+	z-index: 10000018;
+}
+.onlogevent {
+	background: white;
+    width: 100%;
+    height: 55.5px;
+	border-bottom: 1px solid #B3B3B3;
+}
+.eventuser {
+	text-align: -webkit-center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 55.5px;
+    left: 51px;
+    top: 50px;
+}
+.timeago {
+	align: right;
+}
+.background {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-image: url(https://www.habbo.com/habbo-imaging/avatarimage?figure=hr-100-45.ha-3253-11…3313-92.ch-215-73.sh-290-92&head_direction=3&gesture=sml&size=m&headonly=1);
+    background-repeat: no-repeat;
+}
+.icons {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	top: 51px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}

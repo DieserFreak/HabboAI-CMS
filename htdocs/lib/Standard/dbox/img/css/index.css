@@ -1,0 +1,293 @@
+.idx_logo{
+    float: left;
+    width: 195px;
+    height: 73px;
+    background-image:url('/lib/punch/img/Hobba_logo2.png');
+    margin-top: -5px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.idx_logo:hover{
+    opacity: 0.6;
+}
+
+.idx_users_on{
+    float: right;
+    width: auto;
+    height: auto;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+form .idx_ipt{
+    float: left;
+    width: 70%;
+    height: auto;
+    line-height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+form .idx_ipt:focus{
+    background-color: rgba(255,255,255,0.85);  
+    outline: none;
+}
+
+form #idx_icon {
+    background-position: 50%;
+    background: rgba(68,76,85,1);
+    background: -moz-linear-gradient(-45deg, rgba(68,76,85,1) 0%, rgba(59,65,74,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(68,76,85,1)), color-stop(100%, rgba(59,65,74,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(68,76,85,1) 0%, rgba(59,65,74,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(68,76,85,1) 0%, rgba(59,65,74,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(68,76,85,1) 0%, rgba(59,65,74,1) 100%);
+    background: linear-gradient(135deg, rgba(68,76,85,1) 0%, rgba(59,65,74,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444c55', endColorstr='#3b414a', GradientType=1 );
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 47px;
+    width: 40px;
+    height: auto;
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+}
+
+.idx_button{
+    float: left;
+    width: 97%;
+    height: auto;
+    background: rgba(68,76,85,1);
+    background: -moz-linear-gradient(rgba(68,76,85,1) 50%, rgba(59,65,74,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(68,76,85,1)), color-stop(100%, rgba(59,65,74,1)));
+    background: -webkit-linear-gradient(rgba(68,76,85,1) 50%, rgba(59,65,74,1) 100%);
+    background: -o-linear-gradient(rgba(68,76,85,1) 50%, rgba(59,65,74,1) 100%);
+    background: -ms-linear-gradient(rgba(68,76,85,1) 50%, rgba(59,65,74,1) 100%);
+    background: linear-gradient(to bottom, rgba(68,76,85,1) 0%, rgba(68,76,85,1) 50%, rgba(59,65,74,1) 51%, rgba(59,65,74,1) 100%);
+    border: 5px solid #292E34;
+    border-radius: 10px;
+    text-align:center;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: 0px -2.5px 0px rgba(0,0,0,0.4);
+    text-decoration:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+form .idx_button.submit{
+    float: left;
+    width: 97%;
+    height: auto;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 0px;
+    border-radius: 5px;
+    font-family: Segoe UI;
+    border: none;
+    text-shadow: 0px -2px 0px rgba(0,0,0,0.4);
+    margin-top: 15px;
+}
+
+.box.idx_features{
+    height: auto; 
+    background-image:url('../img/header5.png'); 
+    background-size: cover; 
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0px 3px 0px 0px rgba(255,255,255,0.25), inset 0px -3px 0px 0px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0px 3px 0px 0px rgba(0,0,0,0.25), inset 0px -3px 0px 0px rgba(0,0,0,0.3); 
+    box-shadow: inset 0px 3px 0px 0px rgba(255,255,255,0.25), inset 0px -3px 0px 0px rgba(0,0,0,0.3);
+    margin-top: 15px;
+}
+
+.box.idx_features .feat_circle{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.55);
+    margin-left: 110px;
+    margin-top: 15px;
+    background-position: 50%;
+    -webkit-box-shadow: inset 0px 3px 0px 0px rgba(255,255,255,0.4), inset 0px -3px 0px 0px rgba(0,0,0,0.4); 
+    -moz-box-shadow: inset 0px 3px 0px 0px rgba(0,0,0,0.4), inset 0px -3px 0px 0px rgba(0,0,0,0.4); 
+    box-shadow: inset 0px 3px 0px 0px rgba(255,255,255,0.4), inset 0px -3px 0px 0px rgba(0,0,0,0.4);
+    transition: all 300ms;
+}
+
+.box.idx_features .feat_circle .feat_hover{
+    position: absolute;
+    width: 100px; 
+    height: 60px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.box.idx_features .feat_circle a{
+    text-decoration: none;
+    color: white;
+}
+
+.box.idx_features .feat_title{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.idx_alert {
+	width:100%;
+	height:auto;
+	left:0;
+	right:0;
+	background:darkred;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	padding-top:4px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgba(0,0,0,0.4);
+	
+}
+
+/*
+.logo_s{
+    float: left;
+    width: 112px;
+    height: 42px;
+    background-image:url('../img/Bubbo.gif');
+    margin-top: 20px;
+}
+
+.login label{
+    float: left;
+    font-size: 13px;
+    color: white;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+form .idx_ipt{
+    float: left;
+    width: 90%;
+    height: auto;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 4px;
+    color: #4D4D4D;
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.idx_button{
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #3BA800;
+    background: -moz-linear-gradient(#3BA800 50%, #2C7E00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#3BA800), color-stop(100%,#2C7E00));
+    background: -webkit-linear-gradient(#3BA800 50%, #2C7E00 100%);
+    background: -o-linear-gradient(#3BA800 50%, #2C7E00 100%);
+    background: -ms-linear-gradient(#3BA800 50%, #2C7E00 100%);
+    background: linear-gradient(to bottom, #3BA800 0%,#3BA800 50%,#2C7E00 51%,#2C7E00 100%);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    border: 5px solid #2C7E00;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align:center;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-shadow: 0px -2.5px 0px rgba(0,0,0,0.4);
+    text-decoration:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.idx_button.submit{
+    border: 2px solid #006800;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0px;
+    font-weight: 500;
+    font-family: Ubuntu;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    margin-top: 35px;
+}
+
+.idx_title{
+    float: left;
+}
+
+.idx_prv{
+    float: left;
+    width: 95%;
+    height: 400px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    background-position: center;
+}
+
+.idx_prv > .shorttitle{
+    float: left;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+*/

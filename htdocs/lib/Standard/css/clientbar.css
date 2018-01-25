@@ -1,0 +1,117 @@
+#bar {
+position: absolute;
+right: 200px;
+top: 12px;
+max-height: 35px;
+min-widht: 100px;
+}
+
+#bar .tab {
+float: left;
+background: #2A2822;
+border: 2px solid #54524D;
+padding-left: 20px;
+padding-right: 20px;
+height: 21px;
+
+line-height: 21px;
+text-align: center;
+font-family: PT Sans Caption;
+color: #FFF;
+// font-weight: bold;
+font-size: 13px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 5px;
+margin-left: 5px;
+-webkit-box-shadow: 0 0 0 1px #000;
+box-shadow: 0 0 0 1px #000;
+letter-spacing: 0.1px;
+}
+
+#bar .tab:hover {
+border: 2px solid #77736C;
+
+}
+
+#bar .tab.more {
+cursor: pointer;
+width: 12px;
+background: url('<?php echo $path; ?>/public/images/client/clientbar/more.png') no-repeat;
+background-color: #2A2822;
+background-position: 50% 50%;
+}
+
+#bar .tab.radio {
+
+}
+
+#bar .tab.radio #radiocont {
+margin-top: 2.5px;
+}
+
+#bar .add {
+float: left;
+
+}
+
+#navi {
+display: none;
+width: 180px;
+position: absolute;
+right: 205px;
+top: 40px;
+background-color: #2A2822;
+color: #FFF;
+font-family: Ubuntu;
+font-size: 13px;
+border: 2px solid #54524D;
+border-radius: 4px;
+-webkit-box-shadow: 0 0 0 1px #000;
+box-shadow: 0 0 0 1px #000;
+}
+
+#navi .liste {
+height: 35px;
+line-height: 35px;
+border-bottom: 1px solid #424B52;
+padding-left: 50px;
+cursor: pointer;
+}
+
+#navi .liste.umfragen:hover, #navi .liste.logout:hover, #navi .liste.MOD:hover, #navi .liste.vollbild:hover, #navi .liste.DJ:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+#navi .liste.bottom {
+border-bottom: 0px;
+}
+
+#navi .liste.umfragen {
+background: url('<?php echo $path; ?>/public/images/client/clientbar/umfragen.png') no-repeat;
+background-size: 25px 25px;
+background-position: 5% 50%;
+}
+
+
+#navi .liste.logout {
+background: url('<?php echo $path; ?>/public/images/client/clientbar/logout.png') no-repeat;
+background-size: 25px 25px;
+background-position: 5% 50%;
+}
+
+#navi .liste.DJ {
+background: url('<?php echo $client->adresse; ?>/c_images/album1584/NLB.gif') no-repeat;
+background-position: -5px 30%;
+}
+
+#navi .liste.MOD {
+background: url('<?php echo $avatar . $user->look; ?>') no-repeat;
+background-position: -15px 30%;
+}
+
+#navi .liste.vollbild {
+background: url('<?php echo $path; ?>/public/images/client/clientbar/size.png') no-repeat;
+background-size: 25px 25px;
+background-position: 5% 50%;
+}

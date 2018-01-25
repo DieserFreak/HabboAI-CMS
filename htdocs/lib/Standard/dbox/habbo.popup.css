@@ -1,0 +1,207 @@
+/***
+ *                                                                                         
+ *            ,--,                                                    .--,-``-.            
+ *          ,--.'|                                                   /   /     '.          
+ *       ,--,  | :             ,---,     ,---,                      / ../        ;         
+ *    ,---.'|  : '           ,---.'|   ,---.'|      ,---.           \ ``\  .`-    '        
+ *    |   | : _' |           |   | :   |   | :     '   ,'\      .---.\___\/   \   :        
+ *    :   : |.'  |  ,--.--.  :   : :   :   : :    /   /   |   /.  ./|     \   :   |        
+ *    |   ' '  ; : /       \ :     |,-.:     |,-..   ; ,. : .-' . ' |     /  /   /         
+ *    '   |  .'. |.--.  .-. ||   : '  ||   : '  |'   | |: :/___/ \: |     \  \   \         
+ *    |   | :  | ' \__\/: . .|   |  / :|   |  / :'   | .; :.   \  ' . ___ /   :   |        
+ *    '   : |  : ; ," .--.; |'   : |: |'   : |: ||   :    | \   \   '/   /\   /   :        
+ *    |   | '  ,/ /  /  ,.  ||   | '/ :|   | '/ : \   \  /   \   \  / ,,/  ',-    .        
+ *    ;   : ;--' ;  :   .'   \   :    ||   :    |  `----'     \   \ \ ''\        ;         
+ *    |   ,/     |  ,     .-./    \  / /    \  /               '---" \   \     .'          
+ *    '---'       `--`---'   `-'----'  `-'----'                       `--`-,,-'            
+ *             
+ *    A Revolutionary Habbo design.                                                                            
+ */
+ 
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Condensed);
+ 
+html {-webkit-font-smoothing: subpixel-antialiased;}
+
+body {
+	background-attachment: fixed;
+	background: url('../img/habbo_texture.png'), -ms-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	background-image: url('../img/habbo_texture.png'),-webkit-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	background-image: url('../img/habbo_texture.png'),-moz-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	overflow: auto;
+	color: #fff;
+	
+	font-family: Ubuntu;
+	margin: auto;
+	margin-top: 150px;
+	padding:20px;
+	margin-left:30px;
+}
+
+ *, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 115px;
+	padding:20px;
+	background: rgba(7, 43, 67, 0.9);
+	border-bottom: 2px solid #2783B2;
+}
+
+header #container {
+	
+	position: relative;
+	margin: auto;
+	height: 100%;
+	margin-top: 10px;
+	padding-top: 8px;
+	margin-left:30px;
+}
+
+header #logo {
+	float:left;
+	width: 110px;
+	height: 40px;
+	background-image: url('../img/habbo_logo.png');
+	top: 20px;
+}
+
+
+.error{
+	width:60%;
+
+}
+
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #9EC6DC;
+margin: 1em 0;
+padding: 0;
+margin-top:-15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.error p {
+	color: #9ec6dc;
+	font-size: 18px;
+	font-family: 'Ubuntu Condensed',sans-serif;
+}
+
+.error h1 {font-family:Ubuntu Condensed;font-weight:normal;}
+.error h2{ font-family:Ubuntu Condensed; font-size:42px; color:#9ec6dc;font-weight:normal;margin:0px;}
+
+input[type="text"], input[type="password"]
+{
+	background: #CCD8DF;
+	border: 4px solid #275D8E;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: inset 0px 2px #9EBECC;
+	color: #798B90;
+	display: block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-top: 15px;
+	outline: 0;
+	padding: 5px;
+	width: 95%;
+}
+input::-webkit-input-placeholder
+{
+	color: #798B90;
+}
+input:-moz-placeholder
+{
+	color: #798B90;
+}
+input::-moz-placeholder
+{
+	color: #798B90;
+}
+input:-ms-input-placeholder
+{
+	color: #798B90;
+}
+input:focus
+{
+	border: 4px solid #0F7AA8;
+}
+
+.error .info{
+	margin-top:20px;
+	padding:20px;
+	border:4px solid #00637B;border-radius:5px;
+	background:rgba(255,255,255,0.1);
+	color:#9ec6dc;
+	font-size: 14px;
+	font-family: 'Ubuntu Condensed',sans-serif;
+}
+
+ .btn {
+	font-family: Ubuntu;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 6px 6px 6px 6px;
+	padding: 10px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	border: 3px solid transparent;
+	padding: 5px 8px 5px 8px;
+
+		border-radius: 4px;
+		box-shadow: 0px 1px 0px 2px #082641;
+		font-size: 18px;
+		border: 2px solid transparent;
+		font-family: Ubuntu Condensed;
+		background: #AC1A4F;
+		border-color: #F37387;
+ }
+
+.btn:active {
+	position: relative;
+	top: 1px;
+}
+ 
+.message
+{
+	border: 2px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 2px #082641;
+	color: #fff;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.message.error
+{
+	background: #AC1A4F;
+	border-color: #F37387;
+}
+.message.success
+{
+	background: #019E55;
+	border-color: #B6F272;
+}
+.message.error.vampire
+{
+	background: #2A2821;
+	border-color: #54524C;
+	color: #F27286;
+	font-size: 24px;
+}

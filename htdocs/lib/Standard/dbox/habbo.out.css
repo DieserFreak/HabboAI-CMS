@@ -1,0 +1,396 @@
+/***
+ *                                                                                         
+ *            ,--,                                                    .--,-``-.            
+ *          ,--.'|                                                   /   /     '.          
+ *       ,--,  | :             ,---,     ,---,                      / ../        ;         
+ *    ,---.'|  : '           ,---.'|   ,---.'|      ,---.           \ ``\  .`-    '        
+ *    |   | : _' |           |   | :   |   | :     '   ,'\      .---.\___\/   \   :        
+ *    :   : |.'  |  ,--.--.  :   : :   :   : :    /   /   |   /.  ./|     \   :   |        
+ *    |   ' '  ; : /       \ :     |,-.:     |,-..   ; ,. : .-' . ' |     /  /   /         
+ *    '   |  .'. |.--.  .-. ||   : '  ||   : '  |'   | |: :/___/ \: |     \  \   \         
+ *    |   | :  | ' \__\/: . .|   |  / :|   |  / :'   | .; :.   \  ' . ___ /   :   |        
+ *    '   : |  : ; ," .--.; |'   : |: |'   : |: ||   :    | \   \   '/   /\   /   :        
+ *    |   | '  ,/ /  /  ,.  ||   | '/ :|   | '/ : \   \  /   \   \  / ,,/  ',-    .        
+ *    ;   : ;--' ;  :   .'   \   :    ||   :    |  `----'     \   \ \ ''\        ;         
+ *    |   ,/     |  ,     .-./    \  / /    \  /               '---" \   \     .'          
+ *    '---'       `--`---'   `-'----'  `-'----'                       `--`-,,-'            
+ *             
+ *    A Revolutionary Habbo design.                                                                            
+ */
+
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Condensed);
+
+html
+{
+	webkit-font-smoothing: subpixel-antialiased;
+}
+body
+{
+	background: url('../img/habbo_texture.png'), -ms-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	background-image: url('../img/habbo_texture.png'),-moz-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	background-image: url('../img/habbo_texture.png'),-webkit-linear-gradient(#0297c8 -40%,#0C3A65 80%);
+	background-attachment: fixed;
+}
+#habbo-hotel-image
+{
+	background: url('../img/habbo_hotel.png') no-repeat;
+	height: 100%;
+	left: -380px;
+	position: absolute;
+	top: 30px;
+	width: 1031px;
+}
+#login
+{
+	position: absolute;
+	right: 30px;
+	top: 50px;
+	width: 350px;
+}
+#login .title
+{
+	color: #F1EDE9;
+	font-family: Ubuntu Condensed;
+	font-size: 48px;
+}
+#login .help
+{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+#login .help a
+{
+	border-bottom: 1px solid #2E97B3;
+	color: #20A0BF;
+	display: inline-block;
+	font-family: Ubuntu Condensed;
+	font-size: 25px;
+	padding-bottom: -5px;
+	text-decoration: none;
+}
+#login .help .title
+{
+	color: #7AC6EA;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 30px;
+}
+#login input[type="text"], input[type="password"]
+{
+	background: #CCD8DF;
+	border: 4px solid #275D8E;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: inset 0px 2px #9EBECC;
+	color: #798B90;
+	display: block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-top: 15px;
+	outline: 0;
+	padding: 5px;
+	width: 95%;
+}
+#login input::-webkit-input-placeholder
+{
+	color: #798B90;
+}
+#login input:-moz-placeholder
+{
+	color: #798B90;
+}
+#login input::-moz-placeholder
+{
+	color: #798B90;
+}
+#login input:-ms-input-placeholder
+{
+	color: #798B90;
+}
+#login input:focus
+{
+	border: 4px solid #0F7AA8;
+}
+.btn
+{
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-right: 12px;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+.btn.red
+{
+	background: #AC1A4F;
+	border: 3px solid #F37387;
+}
+.btn.green
+{
+	background: #019E55;
+	border: 3px solid #B6F272;
+}
+.btns
+{
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-right: 12px;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+	float:right;
+}
+.btns.red
+{
+	background: #AC1A4F;
+	border: 3px solid #F37387;
+}
+.btns.green
+{
+	background: #019E55;
+	border: 3px solid #B6F272;
+}
+@media screen and (min-width: 1280px)
+{
+	#login
+	{
+		right: 115px;
+		top: 160px;
+		width: 400px;
+	}
+}
+p
+{
+	color: #77C2E7;
+	font-family: Ubuntu;
+	font-weight: bold;
+}
+#registration
+{
+	padding: 10px;
+	position: absolute;
+	right: 10px;
+	top: 50px;
+	width: 400px;
+}
+.habbo-scroll::-webkit-scrollbar
+{
+	width: 12px;
+}
+.habbo-scroll::-webkit-scrollbar-thumb
+{
+	background-clip: content-box;
+	background-color: #0FA4B5;
+	border: 4px solid transparent;
+	border-radius: 9px;
+	cursor: pointer;
+	margin: 200px;
+}
+.habbo-scroll::-webkit-scrollbar-track
+{
+	background: #17171D;
+	border: 2px solid #225177;
+	border-radius: 9px;
+}
+#registration .title
+{
+	color: #F1EDE9;
+	font-family: Ubuntu Condensed;
+	font-size: 48px;
+}
+#registration input[type="text"], input[type="password"]
+{
+	background: #CCD8DF;
+	border: 4px solid #275D8E;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: inset 0px 2px #9EBECC;
+	color: #798B90;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 20px;
+	margin-top: 15px;
+	outline: 0;
+	padding: 5px;
+	width: 95%;
+}
+#registration select
+{
+	background: #019E55;
+	border: 3px solid #B6F272;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu Condensed;
+	font-size: 20px;
+	margin-right: 12px;
+	outline: 0;
+	padding: 4px;
+}
+#registration input::-webkit-input-placeholder
+{
+	color: #798B90;
+}
+#registration input:-moz-placeholder
+{
+	color: #798B90;
+}
+#registration input::-moz-placeholder
+{
+	color: #798B90;
+}
+#registration input:-ms-input-placeholder
+{
+	color: #798B90;
+}
+#registration input:focus
+{
+	border: 4px solid #0F7AA8;
+}
+@media screen and (min-width: 1280px)
+{
+	#registration
+	{
+		height: auto;
+		overflow-y: hidden;
+		right: 70px;
+		top: 70px;
+		width: 450px;
+	}
+}
+#registration .section
+{
+	margin-bottom: 20px;
+}
+#registration .section .title
+{
+	color: #7AC6EA;
+	font-family: Ubuntu Condensed;
+	font-size: 30px;
+}
+#forgot
+{
+	position: absolute;
+	right: 80px;
+	top: 100px;
+	width: 350px;
+}
+#forgot .title
+{
+	color: #F1EDE9;
+	font-family: Ubuntu Condensed;
+	font-size: 48px;
+}
+#forgot .help
+{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+#forgot .help a
+{
+	border-bottom: 1px solid #2E97B3;
+	color: #20A0BF;
+	display: inline-block;
+	font-family: Ubuntu Condensed;
+	font-size: 25px;
+	padding-bottom: -5px;
+	text-decoration: none;
+}
+#forgot .help .title
+{
+	color: #7AC6EA;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 30px;
+}
+#forgot input[type="text"], input[type="password"]
+{
+	background: #CCD8DF;
+	border: 4px solid #275D8E;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: inset 0px 2px #9EBECC;
+	color: #798B90;
+	display: block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-top: 15px;
+	outline: 0;
+	padding: 5px;
+	width: 95%;
+}
+#forgot input::-webkit-input-placeholder
+{
+	color: #798B90;
+}
+#forgot input:-moz-placeholder
+{
+	color: #798B90;
+}
+#forgot input::-moz-placeholder
+{
+	color: #798B90;
+}
+#forgot input:-ms-input-placeholder
+{
+	color: #798B90;
+}
+#forgot input:focus
+{
+	border: 4px solid #0F7AA8;
+}
+.btn
+{
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 1px 0px 3px #082641;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	margin-right: 12px;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+.message
+{
+	border: 2px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 2px #082641;
+	color: #fff;
+	display: block;
+	font-family: Ubuntu Condensed;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.message.error
+{
+	background: #AC1A4F;
+	border-color: #F37387;
+}
+.message.success
+{
+	background: #019E55;
+	border-color: #B6F272;
+}
+.message.error.vampire
+{
+	background: #2A2821;
+	border-color: #54524C;
+	color: #F27286;
+	font-size: 24px;
+}
+ 

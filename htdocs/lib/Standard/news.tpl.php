@@ -1,0 +1,3 @@
+		<!- BEGIN topnews ->
+
+		<!- END topnews ->

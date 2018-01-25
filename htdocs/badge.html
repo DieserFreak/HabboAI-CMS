@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hobba Badgeuploader</title>
+
+		<!-- Google web fonts -->
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+
+		<!-- The main CSS file -->
+		<link href="/lib/standard/dbox/upload/css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<form id="upload" method="post" action="badge.php" enctype="multipart/form-data"><center><img src="/logo1.png"></center>
+			<div id="drop">
+				BADGES
+
+				<a>AUSW&Auml;HLEN</a>
+				<input type="file" name="upl" multiple />
+			</div>
+
+			<ul>
+				<!-- The file uploads will be shown here -->
+			</ul>
+
+		</form>
+
+        
+		<!-- JavaScript Includes -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.knob.js"></script>
+
+		<!-- jQuery File Upload Dependencies -->
+		<script src="/lib/standard/dbox/upload/js/jquery.ui.widget.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.iframe-transport.js"></script>
+		<script src="/lib/standard/dbox/upload/js/jquery.fileupload.js"></script>
+		
+		<!-- Our main JS file -->
+		<script src="/lib/standard/dbox/upload/js/script.js"></script>
+
+
+		<!-- Only used for the demos. Please ignore and remove. --> 
+        <script src="http://cdn.tutorialzine.com/misc/enhance/v1.js" async></script>
+
+		<script>alert("Achtung - bitte lesen!\r\r- Akzeptiert wird nur das .GIF Format\r- Dateiname ist gleichzeitig der Badgecode\r\rBadgename muss aus dem Usernamen des Staffs bestehen\rBeispiel - Hazed lädt ein Badge hoch\rBadgecode müsste sein: HAZED1, HAZED2, HAZED3\r\r- Keine Badgenamen die bereits existieren - sonst werden die alten durch das neue ersetzt!\r")</script>
+		
+		
+	</body>
+</html>
